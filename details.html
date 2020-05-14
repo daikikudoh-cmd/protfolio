@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Creative - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- Third party plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+      
+        <!-- Masthead-->
+        <h1 class="text-center">スキルセット</h1>
+
+        <div class="container">
+            <div class="row">
+            <div class="col-12 col-md-3">
+                <table class="table table-borderless">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">言語</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">PHP</td>
+                    </tr>
+                    <tr>
+                      <td scope="row">HTML</td>
+                    </tr>
+                    <tr>
+                      <td scope="row">CSS</td>
+                    </tr>
+                    <tr>
+                      <td scope="row">javascript</td>
+                    </tr>
+                    <tr>
+                      <td scope="row">Ruby</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+            <div class="col-12 col-md-3">
+                <table class="table table-borderless">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">FW/ライブラリ</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">Laravel</td>
+                    </tr>
+                    <tr>
+                      <td scope="row">Bootstrap</td>
+                    </tr>
+                    <tr>
+                      <td scope="row">jQuery</td>
+                    </tr>
+                    <tr>
+                      <td scope="row">rails</td>
+                    </tr>
+                  </tbody>
+                </table>
+                
+            </div>
+            <div class="col-12 col-md-3">
+                <table class="table table-borderless">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">開発環境</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">AWS</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+            <div class="col-12 col-md-3">
+                <table class="table table-borderless">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">その他</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">MySQL</td>
+                    </tr>
+                    <tr>
+                      <td scope="row">postgresql</td>
+                    </tr>
+                  </tbody>
+                </table>
+                
+            </div>
+            </div>            
+        </div>
+ 
+        <!-- About-->
+    <div class="container">
+    <h1 class="text-center">制作実績</h1>
+    <h2 class="text-center">OTA(ONline Travel Agent)</h2>
+    <div>
+        <table>
+            <tr>
+                <th>
+                    内容
+                </th>
+            </tr>
+            <tr>
+                <td> <a href="https://www.trip2local.com/" target="_blank">サイトリンク</a>
+                    <br>
+                    <a href="https://bitbucket.org/daiku_kudoh/new_trip2local/src/master/" target="_blank">Gitbucket</a>
+                    <br>
+
+                    <br>
+                    自社が持つ旅行商品をインターネットを通じて販売するプラットフォームの作成。管理画面にて商品の造成・在庫追加・削除、また
+                    予約可能な日にちの指定が可能。予約指定日以外は予約受付不可。
+                    クライアント側では管理画面で追加された商品、予約数、予約日付を選択でき合計金額を確認後
+                    Stripeにて決済が可能。決済後はStripeより予約者に決済完了メールが届き、それがバウチャーの代わりとなり旅行催行当日は決済メールの書面を集合場所にもっていき旅行に参加できる。
+                </td>
+            </tr>
+            <tr>
+                <th><br>制作背景</th>
+            </tr>
+            <tr>
+                <td><br>もともと所属していた会社にて海外のB2Bにフォーカスしていたが、
+                B2Cの事業にも参入するということで顧客に直接アプローチできる販売チャンネルを造設という意図で制作。    
+            </td>
+            </tr>
+            <tr>
+                <th><br>担当業務</th>
+            </tr>
+            <tr>
+                <td>
+                    <br>全行程
+                </td>
+            </tr>
+            <tr>
+                <th><br>詳細</th>
+            </tr>
+            <tr>
+                <td><br>
+                    仕様言語：ruby 2.6.3 <br>
+                    <br>
+                    フレームワーク：Rails 5.1.7 <br>
+                    <br>
+                    利用gem : activeadmin, devise, carrierwave, mini_magick, font-awesome-sass, country_select,  stripe, dotenv-rails, gon, carrierwave, fog-aws, awesome_rails_console <br>
+                    <br>
+                    DB: development(sqlite3), production(pg)<br>
+                    <br>
+                    サーバー：Heroku <br>
+                    <br>
+                    ドメイン：お名前.comにて取得 <br>
+                    <br>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </div>
+
+
+
+
+        <!-- Services-->
+    <div class="container">
+    <h2 class="text-center">Twitterクローン</h2>
+    <div>
+        <table>
+            <tr>
+                <th>内容</th>
+            </tr>
+            <tr>
+                <td>
+<a href="http://twitter-clone-sample.herokuapp.com/" target="_blank">サイトリンク</a>
+                    <br>
+                    <a href="https://github.com/daikikudoh-cmd/twitter_clone_sample" target="_blank">Github</a>
+                    <br>
+                    <br>Twitterが持つログイン、投稿・投稿削除、お気に入り、他ユーザーのフォロー・アンフォローという基本的な機能を持つクローンプログラム。</td>
+            </tr>
+            <tr>
+                <th><br>制作背景</th>
+            </tr>
+            <tr>
+                <td><br>Techacademyにて学習したPHP,Laravelを利用してCRUDメソッドの最終の学習として作成。<br>
+                </td>
+            </tr>
+            <tr>
+                <th><br>担当業務</th>
+            </tr>
+            <tr>
+                <td><br>全行程</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    
+        <!-- Portfolio-->
+    <div class="container">
+    <h2 class="text-center">カバー曲制作</h2>
+    <div>
+        <table>
+            <tr>
+                <th>内容</th>
+            </tr>
+            <tr>
+                <td>
+
+<a href="http://ongaqjs-sample.herokuapp.com/" target="_blank">サイトリンク</a>
+                    <br>
+                    <a href="https://github.com/daikikudoh-cmd/ongaqjs" target="_blank">Github</a>
+                    <br>
+                    <br>Ongaqjsを利用し、コーディングのみでの作成した楽曲. <br>
+                    楽曲自体はAviciiのThe daysという楽曲をカバー。
+                </td>
+            </tr>
+            <tr>
+                <th><br>制作背景</th>
+            </tr>
+            <tr>
+                <td><br>もともと音楽が好きでDTMを使用した作曲実績もあったが、javascriptのみで曲が作れてしまう所に魅力を感じ作成。本来このongaqjsで作曲ができるWebサービスの作成を目指したが時間がなく断念。 <br>
+                </td>
+            </tr>
+            <tr>
+                <th><br>担当業務</th>
+            </tr>
+            <tr>
+                <td><br>全行程</td>
+            </tr>
+            <tr>
+                <th><br>詳細</th>
+            </tr>
+            <tr>
+                <td><br>
+                    基本的にはjavascriptのみで動くためjavascript内に複数の楽器パート（ドラム、ボーカル、ギター、ピアノ、ベース等）を作成し、作成したパートごとに細かくどの時点でどの音をどれぐらいの長さで鳴らすかという部分を記載していった。
+                    また一部のパートでは関数を指定できるためfor文やif文を使い効率的に作曲が可能。
+                    さらに音を重ねるためすでに作成したコードの進行やメロディーはコピペするだけで実装できてしまうため非常に便利。
+                </td>
+            </tr>
+        </table>
+    </div>
+    </div>
+      
+        <!-- Call to action-->
+
+        <!-- Contact-->
+
+
+        <!-- Footer-->
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
